@@ -61,6 +61,7 @@ export const PROJECTS: Project[] = [
       "A quiz web application that hosts Professor Gallaugher's quiz content for his YouTube audience. Students can take quizzes, track progress, and reinforce learning from the course material.",
     techStack: ["TypeScript", "React", "Tailwind CSS", "Google Cloud Firestore", "Render", "Python", "FastAPI", "Docker", "Stytch"],
     githubUrl: "https://github.com/Theodore-Utomo/swift-ios-quizzes",
+    externalUrl: "https://www.johngallaugher.com/",
   },
   {
     slug: "tailtranslate",
