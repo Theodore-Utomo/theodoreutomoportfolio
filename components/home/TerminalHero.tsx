@@ -7,9 +7,9 @@ import { motion } from "framer-motion";
 const LINES = [
   { prompt: "$ whoami", output: "Theodore Utomo" },
   { prompt: "$ school", output: "Boston College" },
-  { prompt: "$ role", output: "CS + Finance | AI/Software Engineering | Startups Mindset" },
+  { prompt: "$ role", output: "CS + Finance | AI/Software Engineering " },
   { prompt: "$ focus", output: "Building at the forefront of technology" },
-  { prompt: "$ cat interests", output: "Agentic AI orchestration, iOS, animal-tech, full-stack" },
+  { prompt: "$ cat interests", output: "Agentic AI Orchestration, iOS, Animal-Tech, Full-Stack" },
 ];
 
 const CD_COMMANDS: Record<string, string> = {
@@ -133,16 +133,20 @@ export function TerminalHero() {
           </motion.div>
         )}
       </motion.div>
-      <motion.p
+      <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 3.6, duration: 0.5 }}
-        className="mt-8 text-center text-lg text-[var(--foreground)]/80"
+        className="mt-8 space-y-4 text-center"
       >
-        Computer Science and Finance student at Boston College.
-        AI Engineering, Software Engineering, and the intersection of data-driven
-        building with founder thinking.
-      </motion.p>
+        <p className="mx-auto max-w-2xl text-lg leading-relaxed text-[var(--foreground)]/80">
+          I&apos;m a Computer Science and Finance student at Boston College,
+          passionate about AI research and software engineering. I started at
+          startups at 16, then pivoted to AI research and full-stack building.
+          One constant: cats and fitness. That curiosity led to me building projects
+          that centered around those interests, both exploring the possibilities between humans and animals.
+        </p>
+      </motion.div>
     </section>
   );
 }

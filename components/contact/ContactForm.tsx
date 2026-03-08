@@ -1,6 +1,7 @@
 "use client";
 
-import { useFormState, useFormStatus } from "react-dom";
+import { useActionState } from "react";
+import { useFormStatus } from "react-dom";
 import { submitContactForm } from "@/app/contact/actions";
 import { Send } from "lucide-react";
 
@@ -26,7 +27,7 @@ function SubmitButton() {
 }
 
 export function ContactForm() {
-  const [state, formAction] = useFormState(submitContactForm, {});
+  const [state, formAction] = useActionState(submitContactForm, {});
 
   if (state.success) {
     return (

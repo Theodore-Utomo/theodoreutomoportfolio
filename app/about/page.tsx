@@ -9,8 +9,7 @@ export default function About() {
 
       <div className="space-y-8 text-[var(--foreground)]/90 leading-relaxed">
         <p>
-          I&apos;m a Computer Science and Finance student at{" "}
-          <span className="font-semibold text-[var(--accent)]">Boston College</span>,
+          I&apos;m a Computer Science and Finance student at Boston College,
           passionate about AI research and software engineering. My path has been less about
           picking one lane and more about connecting them: building models from
           scratch to understand the math, then shipping products that put that
