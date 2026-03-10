@@ -26,6 +26,11 @@ export const PROJECTS: Project[] = [
       "PostgreSQL",
       "Docker",
       "Stytch",
+      "YoloV8",
+      "Langchain",
+      "Deep Learning",
+      "PyTorch",
+      "Computer Vision"
     ],
     githubUrl: "https://github.com/Theodore-Utomo/DeepFrank",
   },
