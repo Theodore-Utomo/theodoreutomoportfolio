@@ -11,28 +11,6 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
   {
-    slug: "neural-network-from-scratch",
-    title: "Neural Network from Scratch",
-    tagline: "Pure Python implementation without any ML libraries",
-    problem:
-      "Understanding how neural networks work under the hood is often obscured by high-level frameworks like TensorFlow or PyTorch. The math: backpropagation, gradient descent, activation functions gets abstracted away.",
-    solution:
-      "Built a fully functional neural network using only Python and NumPy. Implements forward propagation, backpropagation, and common activation functions from first principles. No TensorFlow, no PyTorch. Just the fundamentals.",
-    techStack: ["Python", "NumPy"],
-    githubUrl: "https://github.com/Theodore-Utomo/NeuralNetworkFromScratch",
-  },
-  {
-    slug: "moveos",
-    title: "MoveOS",
-    tagline: "iOS fitness tracking app",
-    problem:
-      "Fitness tracking apps often feel bloated or generic. Users want something that fits their workflow without overwhelming them with features they never use.",
-    solution:
-      "MoveOS is a focused iOS app for tracking workouts and movement. Clean, native experience built for people who want to log their activity without the noise.",
-    techStack: ["Swift", "SwiftUI", "iOS", "Google Cloud Firestore"],
-    githubUrl: "https://github.com/Theodore-Utomo/MoveOS",
-  },
-  {
     slug: "pawsnapai",
     title: "PawSnapAI",
     tagline: "AI-powered cat emotional analysis",
@@ -73,6 +51,28 @@ export const PROJECTS: Project[] = [
       "TailTranslate is my Swift Student Challenge 2026 submission. An iOS app that uses Core ML's vision capabilities to analyze cat body language in real time. Built from a genuine passion for animal-tech and years of observing my own cats,turning that curiosity into a tool that helps others understand their pets.",
     techStack: ["Swift", "SwiftUI", "Core ML", "Vision", "iOS"],
     githubUrl: "https://github.com/Theodore-Utomo/TailTranslate",
+  },
+  {
+    slug: "neural-network-from-scratch",
+    title: "Neural Network from Scratch",
+    tagline: "Pure Python implementation without any ML libraries",
+    problem:
+      "Understanding how neural networks work under the hood is often obscured by high-level frameworks like TensorFlow or PyTorch. The math: backpropagation, gradient descent, activation functions gets abstracted away.",
+    solution:
+      "Built a fully functional neural network using only Python and NumPy. Implements forward propagation, backpropagation, and common activation functions from first principles. No TensorFlow, no PyTorch. Just the fundamentals.",
+    techStack: ["Python", "NumPy"],
+    githubUrl: "https://github.com/Theodore-Utomo/NeuralNetworkFromScratch",
+  },
+  {
+    slug: "moveos",
+    title: "MoveOS",
+    tagline: "iOS fitness tracking app",
+    problem:
+      "Fitness tracking apps often feel bloated or generic. Users want something that fits their workflow without overwhelming them with features they never use.",
+    solution:
+      "MoveOS is a focused iOS app for tracking workouts and movement. Clean, native experience built for people who want to log their activity without the noise.",
+    techStack: ["Swift", "SwiftUI", "iOS", "Google Cloud Firestore"],
+    githubUrl: "https://github.com/Theodore-Utomo/MoveOS",
   },
 ];
 
